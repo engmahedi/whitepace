@@ -26,20 +26,25 @@ body{
   font-size: 18px;
   background-color: #C4DEFD;
   color: #fff;
+  line-height: 1.7;
 }
 .theme-button{
   background: #4F9CF9;
   border-radius: 8px;
   padding: 16px 24px !important;
-  margin-left: 24px;
   text-align: center;
+  text-decoration: none;
+  color: #fff;
 }
+.theme-button:hover{
+  color: #fff;
+}
+
 .theme-button-login{
   background: #FFE492;
   color: #043873 !important;
   border-radius: 8px;
   padding: 16px 24px !important;
-  margin-left: 24px;
   text-align: center;
 }
 .theme-button img{
@@ -61,23 +66,94 @@ Header CSS
   font-weight: 500;
   
  }
+
+ .header-area .theme-button{
+  margin-left: 24px;
+ }
+ .header-area .theme-button-login{
+  margin-left: 24px;
+ }
+
 .menu{
   color: #fff;
   padding: 16px 24px;
+  margin-left: 24px;
+}
+
+.header-area .navbar-toggler{
+border: none;
+box-shadow: none;
 }
 
 
 @media (max-width:991px){
-  .theme-button{
-    
+  .header-area .theme-button{ 
     margin-left: 0px;
    
   }
-  .theme-button-login{
+  .header-area .theme-button-login{
     margin-bottom: 20px;
     margin-left: 0px;
   }
   .menu{
     padding-left: 0;
   }
+  .header-area .nav-link{
+    position: relative;
+  }
+  .header-area .nav-link::after{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  
+
+
 }
+
+/* 
+Hero Area CSS
+*/
+.hero-area{
+  background-image: url(img/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 140px 0;
+}
+
+.hero-text h2{
+  font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+letter-spacing: -0.02em;
+
+}
+
+.hero-area p {
+  margin-bottom: 60px;
+}
+
+@media (max-width:991px){
+  
+  .hero-area{
+    padding: 80px 0;
+  }
+  .hero-text{
+    text-align: center;
+  }
+  .hero-text h2{
+    font-size: 36px;
+  }
+
+  .hero-area .hero-image{
+    margin-top: 90px;
+  }
+}
+
+
+
+
+
