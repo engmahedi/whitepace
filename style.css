@@ -24,7 +24,7 @@ body{
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  background-color: #C4DEFD;
+  background-color: #ddd;
   color: #fff;
   line-height: 1.7;
 }
@@ -35,6 +35,7 @@ body{
   text-align: center;
   text-decoration: none;
   color: #fff;
+  display: inline-block;
 }
 .theme-button:hover{
   color: #fff;
@@ -49,6 +50,32 @@ body{
 }
 .theme-button img{
   margin-left: 10px;
+}
+
+.theme-text h3{
+  font-size: 63px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.theme-text h3 span{
+  position: relative;
+z-index: 1;
+}
+.theme-text h3 span::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 63px;
+  left: 0;
+  bottom: -9px;
+  z-index: -1;
+  background-image: url(img/element.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.theme-text p{
+  margin-bottom: 60px;
 }
 
 
@@ -86,32 +113,7 @@ box-shadow: none;
 }
 
 
-@media (max-width:991px){
-  .header-area .theme-button{ 
-    margin-left: 0px;
-   
-  }
-  .header-area .theme-button-login{
-    margin-bottom: 20px;
-    margin-left: 0px;
-  }
-  .menu{
-    padding-left: 0;
-  }
-  .header-area .nav-link{
-    position: relative;
-  }
-  .header-area .nav-link::after{
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
 
-  
-
-
-}
 
 /* 
 Hero Area CSS
@@ -136,8 +138,71 @@ letter-spacing: -0.02em;
   margin-bottom: 60px;
 }
 
+
+
+
+/* 
+Management CSS Area
+*/
+.management-area{
+  padding: 140px 0;
+  background-color: #fff;
+  color: #212529;
+}
+
+.management-area .project-mng{
+  margin-bottom: 50px;
+}
+.theme-text{
+  margin-right: 30px;
+}
+.management-image{
+  margin-left: 30px;
+}
+.management-area .work-tog{
+  margin-top: 50px;
+}
+.work-image{
+  margin-right: 50px;
+}
+.work-text{
+  margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:991px){
-  
+  .header-area .theme-button{ 
+    margin-left: 0px;
+   
+  }
+  .header-area .theme-button-login{
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .menu{
+    padding-left: 0;
+  }
+  .header-area .nav-link{
+    position: relative;
+  }
+  .header-area .nav-link::after{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   .hero-area{
     padding: 80px 0;
   }
@@ -151,9 +216,37 @@ letter-spacing: -0.02em;
   .hero-area .hero-image{
     margin-top: 90px;
   }
+
+  .management-area {
+    text-align: center;
+    padding: 80px 0;
+  }
+  .management-area .theme-text h3{
+    font-size: 36px;
+    
+  }
+  .theme-text{
+    margin-right: 0;
+  }
+  .management-area .theme-text a{
+    margin-bottom: 50px;
+    
+  }
+  .management-image{
+    margin-left: 0;
+  }
+  
+  .work-image{
+    margin-right: 0;
+    margin-top: 60px;
+  }
+  .work-text{
+    margin-left: 0;
+    margin-top: 60px;
+  }
+  
+
 }
-
-
 
 
 
