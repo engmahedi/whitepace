@@ -169,12 +169,105 @@ Management CSS Area
   margin-left: 50px;
 }
 
+/* 
+Extention Area Css
+*/
+
+.extention-area{
+  background-color: #043873;
+  padding: 140px 0;
+}
+
+/* 
+Custom Area Css
+*/
+
+.custom-area{
+  background-color: #fff;
+  padding: 140px 0;
+  color: #212529;
+}
+
+.custom-area .theme-text{
+  margin-left: 50px;
+}
+.custom-image{
+  margin-right: 48px;
+}
+
+/* 
+Pricing Area Css
+*/
+.pricing-area{
+  padding: 220px 0;
+  background-color: #fff;
+  color: #212529;
+}
+.pricing-area .theme-text{
+  margin-bottom: 60px;
+}
+.single-pricing{
+  background: #FFFFFF;
+  border: 1px solid #FFE492;
+  border-radius: 10px;
+  padding: 40px 44px;
+  transition: .8s;
+}
+
+.single-pricing:hover{
+  background: #043873;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 80px 44px;
+  color: #fff;
+}
 
 
+.single-pricing h5{
+  font-size: 24px;
+  font-weight: 500;
+}
+.single-pricing h3{
+  font-size: 36px;
+  font-weight: 700;
+  margin: 25px 0;
+}
 
+.single-pricing:hover h3{
+  color: #FFE492;
+}
 
+.single-pricing ul{
+  margin: 25px 0;
+  padding: 0;
+  list-style: none;
+}
+.single-pricing ul li{
+  margin-bottom: 28px;
+}
+.single-pricing ul li:last-child{
+  margin: 0;
+}
 
+.single-pricing a{
+  background: #FFFFFF;
+  border: 1px solid #FFE492;
+  border-radius: 8px;
+  padding: 16px 40px;
+  color: #212529;
+}
+.single-pricing:hover a{
+  background-color: #4F9CF9;
+}
 
+/* 
+Work Area CSS
+*/
+.work-area{
+  padding: 140px 0;
+  background-color: #043873;
+  color: #fff;
+}
 
 
 
@@ -235,6 +328,25 @@ Management CSS Area
   .management-image{
     margin-left: 0;
   }
+
+  .extention-area {
+    text-align: center;
+    padding: 80px 0;
+  }
+  .extention-area .theme-text h3{
+    font-size: 36px;
+    
+  }
+  .extention-area .theme-text{
+    margin-right: 0;
+  }
+  .extention-area .theme-text a{
+    margin-bottom: 50px;
+    
+  }
+  .extention-image{
+    margin-left: 0;
+  }
   
   .work-image{
     margin-right: 0;
@@ -244,9 +356,49 @@ Management CSS Area
     margin-left: 0;
     margin-top: 60px;
   }
-  
+  .custom-area{
+    text-align: center;
+     padding: 80px 0;
+  }
+  .custom-area .theme-text h3{
+    font-size: 36px;
+  }
+  .custom-image{
+    margin-bottom: 50px;
+  }
+  .custom-area .theme-text{
+    margin-left: 0;
+  }
+  .custom-image{
+    margin-right: 0;
+  }
 
+  .pricing-area {
+    /* text-align: center; */
+    padding: 80px 0;
+  }
+  .pricing-area .theme-text h3{
+    font-size: 36px;
+    
+  }
+  .pricing-area .theme-text{
+    margin-right: 0;
+  }
+  .offset-2 {
+    margin-left: 0;
+}
+.single-pricing{
+  margin-bottom: 30px;
 }
 
+.work-area{
+  text-align: center;
+   padding: 80px 0;
+}
+.work-area .theme-text h3{
+  font-size: 36px;
+}
 
-
+}
+  
+  
