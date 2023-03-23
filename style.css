@@ -380,6 +380,54 @@ Testumonial Area Css
   margin-right: 25px;
 }
 
+footer{
+  background-color: #043873;
+  padding-top: 140px;
+}
+.footer-top{
+  padding-bottom: 68px;
+}
+
+.footer-top ul{
+  list-style: none;
+ padding-left: 0;
+}
+.footer-top ul li{
+  margin-bottom: 5px;
+}
+.footer-top ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: .3s;
+}
+.footer-top ul li a:hover{
+  color: #FFE492;
+}
+.footer-about{
+  padding-right: 15px;
+}
+
+.footer-about img{
+  margin-bottom: 10px;
+}
+.footer-area .theme-text h3{
+  font-size: 28px;
+}
+.footer-area .theme-text p{
+  margin-bottom: 20px;
+}
+.footer-area .theme-text a{
+  
+}
+.footer-top{
+  border-bottom: 1px solid #2E4E73;
+}
+
+.footer-bottom{
+  padding: 32px 0;
+}
+
 
 
 
@@ -584,6 +632,12 @@ Testumonial Area Css
 }
 .trial-text h3{
 font-size: 40px;
+}
+.footer-top{
+  text-align: center;
+}
+.footer-top h3, h5{
+  margin-top: 50px;
 }
 
 
