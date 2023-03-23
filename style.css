@@ -106,6 +106,9 @@ Header CSS
   padding: 16px 24px;
   margin-left: 24px;
 }
+.menu:hover{
+  color: #fff;
+}
 
 .header-area .navbar-toggler{
 border: none;
@@ -215,8 +218,18 @@ Pricing Area Css
   padding: 40px 44px;
   transition: .8s;
 }
+/* .single-pricing i{
+  color: #FFE492;
+} */
 
 .single-pricing:hover{
+  background: #043873;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 80px 44px;
+  color: #fff;
+}
+.active{
   background: #043873;
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
@@ -423,15 +436,39 @@ footer{
 .footer-top{
   border-bottom: 1px solid #2E4E73;
 }
+.footer-top navbar-expand-lg {
+  margin-right: 0 !important;
+}
 
 .footer-bottom{
   padding: 32px 0;
 }
 
 
+.dropdown-menu {
+  
+  --bs-dropdown-bg: #043873;
+  
+  --bs-dropdown-link-hover-bg: none;
+  --bs-dropdown-link-active-bg: none;
+  border: none;
 
+}
+.dropdown-item{
+  color: #fff;
+}
+.social-link{
+  margin-top: 20px;
+  text-align: center;
+}
 
-
+.social-link ul{
+  list-style: none;
+  margin: 0 !important;
+}
+.social-link ul li{
+  margin-left: 20px;
+}
 
 
 
